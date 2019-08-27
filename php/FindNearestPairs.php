@@ -11,7 +11,7 @@ var_dump($pairs);
  * @param array $numbers
  * @return array
  */
-function findNearestPairs($numbers)
+function findNearestPairs(array $numbers)
 {
     sort($numbers);
 
